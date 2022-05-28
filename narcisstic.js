@@ -1,0 +1,1 @@
+const isNarcissistic = n => n.toString().split('').map(num => parseInt(num) ** n.toString().length).reduce((x, y) => x+y) === parseInt(n);
